@@ -3,7 +3,16 @@ name = "rs-wat2imports"
 version = "0.1.0"
 edition = "2024"
 
+description = "Prints the import info of the wasm/wat."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-wat2imports"
+homepage = "https://github.com/takanoriyanagitani/rs-wat2imports"
+documentation = "https://docs.rs/rs-wat2imports/latest"
+keywords = ["wasm", "wat", "import", "wasi"]
+
 exclude = [
+    "rs-wat2imports.wasm",
+    "opt.wasm",
 ]
 
 [lints.rust]
